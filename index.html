@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cao đẳng FPT Polytechnic</title>
+    <style>
+        /* TỔNG THỂ */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* THANH MENU & HEADER */
+        header {
+            background-color: #fff;
+            padding: 10px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            height: 45px;
+            width: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #f27024;
+        }
+
+        /* ẢNH ĐẠI DIỆN SINH VIÊN */
+        .user-profile {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .avatar {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #f27024;
+        }
+
+        /* NỘI DUNG CHÍNH */
+        .container {
+            max-width: 950px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        h3 {
+            color: #f27024;
+            text-transform: uppercase;
+            border-left: 5px solid #f27024;
+            padding-left: 15px;
+            margin-bottom: 20px;
+        }
+
+        .news-item {
+            margin-bottom: 45px;
+            overflow: hidden;
+        }
+
+        .news-img {
+            width: 260px;
+            margin: 10px 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #eee;
+            margin: 25px 0;
+        }
+
+        code {
+            background: #fff3e0;
+            padding: 2px 5px;
+            border-radius: 4px;
+            color: #e65100;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo-FPT-Polytechnic-e1742388222324.png" alt="FPT Poly Logo" class="logo">
+
+        <nav>
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Tuyển sinh</a></li>
+                <li><a href="#">Việc làm</a></li>
+                <li><a href="#">Dịch vụ SV</a></li>
+            </ul>
+        </nav>
+
+        <div class="user-profile">
+            <span>Chào, <strong>Vinh</strong></span>
+            <img src="654793612_122162470496893791_5750581766624055829_n.jpg" alt="Sinh viên" class="avatar">
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="news-item">
+            <h3>Bản Tin Tuyển Sinh</h3>
+            <p>
+                <img src="fpt-polytechnic-nhan-rong-mo-hinh-pho-thong-cao-dang-tren-toan-quocdocx-1615246307598.webp" align="left" class="news-img">
+                FPT Polytechnic thông báo mở cổng đăng ký xét tuyển cho kỳ học mới. Với môi trường học tập <code>Thực học - Thực nghiệp</code>, sinh viên sẽ được tiếp cận với các công nghệ mới nhất như AI, Cloud Computing và UI/UX Design. Chúng tôi cam kết mang lại trải nghiệm đào tạo gắn liền với doanh nghiệp, giúp sinh viên tự tin với tay nghề ngay khi tốt nghiệp.
+            </p>
+        </section>
+
+        <hr>
+
+        <section class="news-item">
+            <h3>Cơ Hội Việc Làm</h3>
+            <p>
+                <img src="anh-mo-ta.png" align="right" class="news-img">
+                Bộ phận Quan hệ doanh nghiệp phối hợp cùng các đối tác công nghệ mang đến hơn 500 vị trí tuyển dụng trong tháng này. Đây là cơ hội lớn để sinh viên năm cuối tìm kiếm nơi thực tập chuyên nghiệp và các bạn cựu sinh viên kết nối với các tập đoàn lớn. Đừng quên cập nhật CV cá nhân thường xuyên trên hệ thống <code>AP</code> để nhà tuyển dụng có thể chủ động liên hệ với bạn.
+            </p>
+        </section>
+
+        <hr>
+
+        <section class="news-item">
+            <h3>Thông Báo Bảo Hiểm Y Tế</h3>
+            <p>
+                <img src="654793612_122162470496893791_5750581766624055829_n.jpg" align="left" class="news-img">
+                Nhà trường thông báo kế hoạch gia hạn và thu phí <strong>Bảo hiểm Y tế (BHYT)</strong> bắt buộc cho năm học 2026. Để đảm bảo quyền lợi khám chữa bệnh và chăm sóc sức khỏe, sinh viên cần kiểm tra tình trạng thẻ BHYT trên ứng dụng <code>VssID</code>. Những trường hợp đã có thẻ BHYT theo hộ gia đình hoặc diện ưu tiên vui lòng nộp minh chứng tại phòng Dịch vụ sinh viên trước thời hạn quy định để được miễn trừ đóng phí tại trường.
+            </p>
+        </section>
+    </div>
+
+</body>
+</html>
